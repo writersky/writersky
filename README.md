@@ -1,8 +1,6 @@
 # writersky
 
-Static "site is closing" page for writersky.com, served as a Cloudflare Worker with static assets only.
-
-Every page path (e.g. old `/story/123` links) serves `public/index.html` via `not_found_handling: "single-page-application"`.
+Writersky static page.
 
 ```sh
 npm install
